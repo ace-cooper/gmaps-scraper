@@ -1,0 +1,25 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "cargo build",
+        "type": "shell",
+        "command": "/home/hugo/.cargo/bin/cargo",
+        "args": [
+          "build"
+        ],
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        },
+        "problemMatcher": ["$rustc"],
+        "detail": "Compiles the Rust code using Cargo.",
+        "options": {
+          "env": {
+            "PATH": "$HOME/.cargo/bin:${env:PATH}"
+          }
+        }
+      }
+    ]
+  }
+  

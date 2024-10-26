@@ -1,0 +1,30 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Debug Main",
+        "type": "lldb",
+        "request": "launch",
+        "program": "${workspaceFolder}/target/debug/main",
+        "args": [],
+        "cwd": "${workspaceFolder}",
+        "sourceLanguages": ["rust"],
+        "preLaunchTask": "cargo build",
+        "stopOnEntry": false,
+        "console": "integratedTerminal"
+      },
+      {
+        "name": "Debug Index (Lambda)",
+        "type": "lldb",
+        "request": "launch",
+        "program": "${workspaceFolder}/target/debug/index",
+        "args": [],
+        "cwd": "${workspaceFolder}",
+        "sourceLanguages": ["rust"],
+        "preLaunchTask": "cargo build",
+        "stopOnEntry": false,
+        "console": "integratedTerminal"
+      }
+    ]
+  }
+  
