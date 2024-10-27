@@ -1,3 +1,3 @@
 # gmaps-scraper
 
-Just a POC to scrape google maps for business data. 
+Just a POC for scraping business data from Google Maps.
